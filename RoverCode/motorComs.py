@@ -2,7 +2,7 @@ import serial
 #import keyboard
 import time
 
-# This is code for testing the serial writing in python and the steering
+# This is code for testing the serial writing in python and the stearing
 
 #115200
 ser = serial.Serial('/dev/ttyACM0', baudrate=115200, timeout=1)
