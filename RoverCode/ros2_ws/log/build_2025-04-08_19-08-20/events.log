@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000983] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.001136] (-) JobUnselected: {'identifier': 'multi_launch'}
+[0.002562] (-) EventReactorShutdown: {}

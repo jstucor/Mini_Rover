@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.001191] (multi_launch) JobQueued: {'identifier': 'multi_launch', 'dependencies': OrderedDict()}
+[0.002226] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.065766] (multi_launch) JobStarted: {'identifier': 'multi_launch'}
+[0.100360] (-) TimerEvent: {}
+[0.201022] (-) TimerEvent: {}
+[0.301686] (-) TimerEvent: {}
+[0.402346] (-) TimerEvent: {}
+[0.502980] (-) TimerEvent: {}
+[0.603590] (-) TimerEvent: {}
+[0.704195] (-) TimerEvent: {}
+[0.804800] (-) TimerEvent: {}
+[0.905492] (-) TimerEvent: {}
+[1.006263] (-) TimerEvent: {}
+[1.107264] (-) TimerEvent: {}
+[1.208035] (-) TimerEvent: {}
+[1.308649] (-) TimerEvent: {}
+[1.409258] (-) TimerEvent: {}
+[1.509830] (-) TimerEvent: {}
+[1.610637] (-) TimerEvent: {}
+[1.711189] (-) TimerEvent: {}
+[1.811815] (-) TimerEvent: {}
+[1.912394] (-) TimerEvent: {}
+[2.013125] (-) TimerEvent: {}
+[2.114185] (-) TimerEvent: {}
+[2.214885] (-) TimerEvent: {}
+[2.315650] (-) TimerEvent: {}
+[2.416435] (-) TimerEvent: {}
+[2.517383] (-) TimerEvent: {}
+[2.618024] (-) TimerEvent: {}
+[2.718664] (-) TimerEvent: {}
+[2.819302] (-) TimerEvent: {}
+[2.919889] (-) TimerEvent: {}
+[3.020585] (-) TimerEvent: {}
+[3.121261] (-) TimerEvent: {}
+[3.221961] (-) TimerEvent: {}
+[3.322750] (-) TimerEvent: {}
+[3.423570] (-) TimerEvent: {}
+[3.524395] (-) TimerEvent: {}
+[3.625139] (-) TimerEvent: {}
+[3.725989] (-) TimerEvent: {}
+[3.826871] (-) TimerEvent: {}
+[3.927551] (-) TimerEvent: {}
+[4.028233] (-) TimerEvent: {}
+[4.128863] (-) TimerEvent: {}
+[4.229590] (-) TimerEvent: {}
+[4.330261] (-) TimerEvent: {}
+[4.430902] (-) TimerEvent: {}
+[4.531601] (-) TimerEvent: {}
+[4.632313] (-) TimerEvent: {}
+[4.732966] (-) TimerEvent: {}
+[4.833611] (-) TimerEvent: {}
+[4.934254] (-) TimerEvent: {}
+[5.034837] (-) TimerEvent: {}
+[5.135530] (-) TimerEvent: {}
+[5.236115] (-) TimerEvent: {}
+[5.336765] (-) TimerEvent: {}
+[5.437502] (-) TimerEvent: {}
+[5.538316] (-) TimerEvent: {}
+[5.639038] (-) TimerEvent: {}
+[5.739952] (-) TimerEvent: {}
+[5.841598] (-) TimerEvent: {}
+[5.943317] (-) TimerEvent: {}
+[5.962084] (multi_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/multi_launch', 'build', '--build-base', '/home/spacecraft/ros2_ws/build/multi_launch/build', 'install', '--record', '/home/spacecraft/ros2_ws/build/multi_launch/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/spacecraft/ros2_ws/src/multi_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'spacecraft', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/spacecraft', 'OLDPWD': '/home/spacecraft', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1750', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/spacecraft/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'spacecraft', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'spacecraft', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/spacecraft-desktop:@/tmp/.ICE-unix/1715,unix/spacecraft-desktop:/tmp/.ICE-unix/1715', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84264458_bae5_4e59_b611_7f73471a5ed5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.CKNB32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.135', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/spacecraft/ros2_ws/install/motor_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/spacecraft/ros2_ws/build/multi_launch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/spacecraft/ros2_ws/build/multi_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages:/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.043374] (-) TimerEvent: {}
+[6.050588] (motor_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_controller', 'build', '--build-base', '/home/spacecraft/ros2_ws/build/motor_controller/build', 'install', '--record', '/home/spacecraft/ros2_ws/build/motor_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/spacecraft/ros2_ws/src/motor_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'spacecraft', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/spacecraft', 'OLDPWD': '/home/spacecraft', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1750', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/spacecraft/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'spacecraft', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'spacecraft', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/spacecraft-desktop:@/tmp/.ICE-unix/1715,unix/spacecraft-desktop:/tmp/.ICE-unix/1715', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84264458_bae5_4e59_b611_7f73471a5ed5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.CKNB32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.135', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/spacecraft/ros2_ws/install/motor_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/spacecraft/ros2_ws/build/motor_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/spacecraft/ros2_ws/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages:/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.143533] (-) TimerEvent: {}
+[6.244166] (-) TimerEvent: {}
+[6.344869] (-) TimerEvent: {}
+[6.445550] (-) TimerEvent: {}
+[6.546186] (-) TimerEvent: {}
+[6.646831] (-) TimerEvent: {}
+[6.747492] (-) TimerEvent: {}
+[6.848069] (-) TimerEvent: {}
+[6.948722] (-) TimerEvent: {}
+[7.049310] (-) TimerEvent: {}
+[7.149887] (-) TimerEvent: {}
+[7.250528] (-) TimerEvent: {}
+[7.350510] (multi_launch) StdoutLine: {'line': b'running egg_info\n'}
+[7.351285] (-) TimerEvent: {}
+[7.351929] (multi_launch) StdoutLine: {'line': b'creating ../../build/multi_launch/multi_launch.egg-info\n'}
+[7.370058] (motor_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.447500] (multi_launch) StdoutLine: {'line': b'writing ../../build/multi_launch/multi_launch.egg-info/PKG-INFO\n'}
+[7.448748] (multi_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/multi_launch/multi_launch.egg-info/dependency_links.txt\n'}
+[7.449721] (multi_launch) StdoutLine: {'line': b'writing requirements to ../../build/multi_launch/multi_launch.egg-info/requires.txt\n'}
+[7.450370] (multi_launch) StdoutLine: {'line': b'writing top-level names to ../../build/multi_launch/multi_launch.egg-info/top_level.txt\n'}
+[7.450996] (multi_launch) StdoutLine: {'line': b"writing manifest file '../../build/multi_launch/multi_launch.egg-info/SOURCES.txt'\n"}
+[7.451539] (-) TimerEvent: {}
+[7.466113] (motor_controller) StdoutLine: {'line': b'writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO\n'}
+[7.468109] (motor_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt\n'}
+[7.477785] (motor_controller) StdoutLine: {'line': b'writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt\n'}
+[7.478711] (motor_controller) StdoutLine: {'line': b'writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt\n'}
+[7.479675] (motor_controller) StdoutLine: {'line': b'writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt\n'}
+[7.551730] (-) TimerEvent: {}
+[7.646288] (multi_launch) StdoutLine: {'line': b"reading manifest file '../../build/multi_launch/multi_launch.egg-info/SOURCES.txt'\n"}
+[7.649125] (multi_launch) StdoutLine: {'line': b"writing manifest file '../../build/multi_launch/multi_launch.egg-info/SOURCES.txt'\n"}
+[7.649854] (multi_launch) StdoutLine: {'line': b'running build\n'}
+[7.650844] (multi_launch) StdoutLine: {'line': b'running build_py\n'}
+[7.651606] (multi_launch) StdoutLine: {'line': b'creating /home/spacecraft/ros2_ws/build/multi_launch/build\n'}
+[7.652136] (-) TimerEvent: {}
+[7.652728] (multi_launch) StdoutLine: {'line': b'creating /home/spacecraft/ros2_ws/build/multi_launch/build/lib\n'}
+[7.653460] (multi_launch) StdoutLine: {'line': b'creating /home/spacecraft/ros2_ws/build/multi_launch/build/lib/multi_launch\n'}
+[7.654180] (multi_launch) StdoutLine: {'line': b'copying multi_launch/__init__.py -> /home/spacecraft/ros2_ws/build/multi_launch/build/lib/multi_launch\n'}
+[7.655477] (multi_launch) StdoutLine: {'line': b'running install\n'}
+[7.677266] (motor_controller) StdoutLine: {'line': b"reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[7.681739] (motor_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[7.682622] (motor_controller) StdoutLine: {'line': b'running build\n'}
+[7.683268] (motor_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.683874] (multi_launch) StdoutLine: {'line': b'running install_lib\n'}
+[7.685248] (motor_controller) StdoutLine: {'line': b'copying motor_controller/motor_node.py -> /home/spacecraft/ros2_ws/build/motor_controller/build/lib/motor_controller\n'}
+[7.688467] (motor_controller) StdoutLine: {'line': b'running install\n'}
+[7.715501] (motor_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.752307] (-) TimerEvent: {}
+[7.788758] (multi_launch) StdoutLine: {'line': b'creating /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch\n'}
+[7.789588] (multi_launch) StdoutLine: {'line': b'copying /home/spacecraft/ros2_ws/build/multi_launch/build/lib/multi_launch/__init__.py -> /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch\n'}
+[7.792032] (multi_launch) StdoutLine: {'line': b'byte-compiling /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch/__init__.py to __init__.cpython-312.pyc\n'}
+[7.793463] (multi_launch) StdoutLine: {'line': b'running install_data\n'}
+[7.794248] (multi_launch) StdoutLine: {'line': b'creating /home/spacecraft/ros2_ws/install/multi_launch/share/ament_index\n'}
+[7.794989] (multi_launch) StdoutLine: {'line': b'creating /home/spacecraft/ros2_ws/install/multi_launch/share/ament_index/resource_index\n'}
+[7.795531] (multi_launch) StdoutLine: {'line': b'creating /home/spacecraft/ros2_ws/install/multi_launch/share/ament_index/resource_index/packages\n'}
+[7.796129] (multi_launch) StdoutLine: {'line': b'copying resource/multi_launch -> /home/spacecraft/ros2_ws/install/multi_launch/share/ament_index/resource_index/packages\n'}
+[7.796750] (multi_launch) StdoutLine: {'line': b'copying package.xml -> /home/spacecraft/ros2_ws/install/multi_launch/share/multi_launch\n'}
+[7.797343] (multi_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.816085] (motor_controller) StdoutLine: {'line': b'copying /home/spacecraft/ros2_ws/build/motor_controller/build/lib/motor_controller/motor_node.py -> /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller\n'}
+[7.819815] (motor_controller) StdoutLine: {'line': b'byte-compiling /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_node.py to motor_node.cpython-312.pyc\n'}
+[7.823563] (motor_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.838055] (motor_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.852485] (-) TimerEvent: {}
+[7.900903] (multi_launch) StdoutLine: {'line': b'Copying ../../build/multi_launch/multi_launch.egg-info to /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch-0.0.0-py3.12.egg-info\n'}
+[7.906117] (multi_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[7.940372] (motor_controller) StdoutLine: {'line': b"removing '/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.942313] (motor_controller) StdoutLine: {'line': b'Copying ../../build/motor_controller/motor_controller.egg-info to /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.0-py3.12.egg-info\n'}
+[7.949407] (motor_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.952654] (-) TimerEvent: {}
+[8.053339] (-) TimerEvent: {}
+[8.153980] (-) TimerEvent: {}
+[8.254613] (-) TimerEvent: {}
+[8.355173] (-) TimerEvent: {}
+[8.455766] (-) TimerEvent: {}
+[8.556380] (-) TimerEvent: {}
+[8.625275] (multi_launch) StdoutLine: {'line': b"writing list of installed files to '/home/spacecraft/ros2_ws/build/multi_launch/install.log'\n"}
+[8.656616] (-) TimerEvent: {}
+[8.738345] (motor_controller) StdoutLine: {'line': b'Installing motor_node script to /home/spacecraft/ros2_ws/install/motor_controller/lib/motor_controller\n'}
+[8.754929] (motor_controller) StdoutLine: {'line': b"writing list of installed files to '/home/spacecraft/ros2_ws/build/motor_controller/install.log'\n"}
+[8.757020] (-) TimerEvent: {}
+[8.800951] (multi_launch) CommandEnded: {'returncode': 0}
+[8.858028] (-) TimerEvent: {}
+[8.909723] (multi_launch) JobEnded: {'identifier': 'multi_launch', 'rc': 0}
+[8.936156] (motor_controller) CommandEnded: {'returncode': 0}
+[8.958689] (-) TimerEvent: {}
+[8.970766] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[8.975115] (-) EventReactorShutdown: {}

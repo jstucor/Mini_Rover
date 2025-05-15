@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.001607] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.001767] (multi_launch) JobQueued: {'identifier': 'multi_launch', 'dependencies': OrderedDict()}
+[0.001858] (multi_launch) JobStarted: {'identifier': 'multi_launch'}
+[0.099252] (-) TimerEvent: {}
+[0.199880] (-) TimerEvent: {}
+[0.300570] (-) TimerEvent: {}
+[0.401208] (-) TimerEvent: {}
+[0.501837] (-) TimerEvent: {}
+[0.602451] (-) TimerEvent: {}
+[0.703040] (-) TimerEvent: {}
+[0.803654] (-) TimerEvent: {}
+[0.904588] (-) TimerEvent: {}
+[1.005502] (-) TimerEvent: {}
+[1.020364] (multi_launch) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n                 ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 36, in get_data_files_mapping\n    assert len(data_file) == 2\n           ^^^^^^^^^^^^^^^^^^^\nAssertionError\n'}
+[1.022715] (multi_launch) JobEnded: {'identifier': 'multi_launch', 'rc': 1}
+[1.031723] (-) EventReactorShutdown: {}

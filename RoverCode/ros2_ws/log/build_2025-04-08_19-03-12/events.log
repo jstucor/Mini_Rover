@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000465] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.000758] (multi_launch) JobQueued: {'identifier': 'multi_launch', 'dependencies': OrderedDict()}
+[0.002474] (multi_launch) JobStarted: {'identifier': 'multi_launch'}
+[0.099359] (-) TimerEvent: {}
+[0.200047] (-) TimerEvent: {}
+[0.300664] (-) TimerEvent: {}
+[0.401274] (-) TimerEvent: {}
+[0.501819] (-) TimerEvent: {}
+[0.602421] (-) TimerEvent: {}
+[0.702961] (-) TimerEvent: {}
+[0.803574] (-) TimerEvent: {}
+[0.904143] (-) TimerEvent: {}
+[1.004861] (-) TimerEvent: {}
+[1.105848] (-) TimerEvent: {}
+[1.206640] (-) TimerEvent: {}
+[1.307262] (-) TimerEvent: {}
+[1.407855] (-) TimerEvent: {}
+[1.508463] (-) TimerEvent: {}
+[1.608998] (-) TimerEvent: {}
+[1.709588] (-) TimerEvent: {}
+[1.810095] (-) TimerEvent: {}
+[1.910721] (-) TimerEvent: {}
+[2.011307] (-) TimerEvent: {}
+[2.111832] (-) TimerEvent: {}
+[2.212417] (-) TimerEvent: {}
+[2.313011] (-) TimerEvent: {}
+[2.413570] (-) TimerEvent: {}
+[2.514119] (-) TimerEvent: {}
+[2.614739] (-) TimerEvent: {}
+[2.715305] (-) TimerEvent: {}
+[2.815856] (-) TimerEvent: {}
+[2.916492] (-) TimerEvent: {}
+[3.016999] (-) TimerEvent: {}
+[3.117605] (-) TimerEvent: {}
+[3.218162] (-) TimerEvent: {}
+[3.318775] (-) TimerEvent: {}
+[3.419301] (-) TimerEvent: {}
+[3.519823] (-) TimerEvent: {}
+[3.620517] (-) TimerEvent: {}
+[3.721334] (-) TimerEvent: {}
+[3.727495] (multi_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/multi_launch', 'build', '--build-base', '/home/spacecraft/ros2_ws/build/multi_launch/build', 'install', '--record', '/home/spacecraft/ros2_ws/build/multi_launch/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/spacecraft/ros2_ws/src/multi_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'spacecraft', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/spacecraft', 'OLDPWD': '/home/spacecraft', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1766', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/spacecraft/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'spacecraft', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'spacecraft', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/spacecraft-desktop:@/tmp/.ICE-unix/1728,unix/spacecraft-desktop:/tmp/.ICE-unix/1728', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6510823f_01fe_4ff0_a9e6_340dc1ef6227', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.29BA42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/spacecraft/ros2_ws/install/multi_launch:/home/spacecraft/ros2_ws/install/motor_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/spacecraft/ros2_ws/build/multi_launch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/spacecraft/ros2_ws/build/multi_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages:/home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages:/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.821483] (-) TimerEvent: {}
+[3.922025] (-) TimerEvent: {}
+[4.022626] (-) TimerEvent: {}
+[4.123241] (-) TimerEvent: {}
+[4.223787] (-) TimerEvent: {}
+[4.324323] (-) TimerEvent: {}
+[4.424867] (-) TimerEvent: {}
+[4.525495] (-) TimerEvent: {}
+[4.626026] (-) TimerEvent: {}
+[4.726604] (-) TimerEvent: {}
+[4.827134] (-) TimerEvent: {}
+[4.899557] (multi_launch) StdoutLine: {'line': b'running egg_info\n'}
+[4.927307] (-) TimerEvent: {}
+[4.986427] (multi_launch) StdoutLine: {'line': b'writing ../../build/multi_launch/multi_launch.egg-info/PKG-INFO\n'}
+[4.987491] (multi_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/multi_launch/multi_launch.egg-info/dependency_links.txt\n'}
+[4.997500] (multi_launch) StdoutLine: {'line': b'writing requirements to ../../build/multi_launch/multi_launch.egg-info/requires.txt\n'}
+[4.998425] (multi_launch) StdoutLine: {'line': b'writing top-level names to ../../build/multi_launch/multi_launch.egg-info/top_level.txt\n'}
+[5.027461] (-) TimerEvent: {}
+[5.127986] (-) TimerEvent: {}
+[5.177508] (multi_launch) StdoutLine: {'line': b"reading manifest file '../../build/multi_launch/multi_launch.egg-info/SOURCES.txt'\n"}
+[5.180721] (multi_launch) StdoutLine: {'line': b"writing manifest file '../../build/multi_launch/multi_launch.egg-info/SOURCES.txt'\n"}
+[5.181373] (multi_launch) StdoutLine: {'line': b'running build\n'}
+[5.181926] (multi_launch) StdoutLine: {'line': b'running build_py\n'}
+[5.182695] (multi_launch) StdoutLine: {'line': b'running install\n'}
+[5.207850] (multi_launch) StdoutLine: {'line': b'running install_lib\n'}
+[5.228124] (-) TimerEvent: {}
+[5.300482] (multi_launch) StdoutLine: {'line': b'running install_data\n'}
+[5.301276] (multi_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.328286] (-) TimerEvent: {}
+[5.393563] (multi_launch) StdoutLine: {'line': b"removing '/home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.395123] (multi_launch) StdoutLine: {'line': b'Copying ../../build/multi_launch/multi_launch.egg-info to /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch-0.0.0-py3.12.egg-info\n'}
+[5.399907] (multi_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[5.428428] (-) TimerEvent: {}
+[5.528962] (-) TimerEvent: {}
+[5.629558] (-) TimerEvent: {}
+[5.730062] (-) TimerEvent: {}
+[5.830608] (-) TimerEvent: {}
+[5.931144] (-) TimerEvent: {}
+[6.031742] (-) TimerEvent: {}
+[6.045040] (multi_launch) StdoutLine: {'line': b"writing list of installed files to '/home/spacecraft/ros2_ws/build/multi_launch/install.log'\n"}
+[6.132040] (-) TimerEvent: {}
+[6.184731] (multi_launch) CommandEnded: {'returncode': 0}
+[6.232284] (-) TimerEvent: {}
+[6.233901] (multi_launch) JobEnded: {'identifier': 'multi_launch', 'rc': 0}
+[6.237156] (-) EventReactorShutdown: {}
