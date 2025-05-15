@@ -3,6 +3,5 @@ This is a subproject of the BYU Spacecraft Club. We invite all who join to read 
 
 
 # Organization of Repo
-
-# Naming convention of branches
-In order to keep a more consistent organization of versions, subsystems and milestones reached, we have made the following naming syntax for all branches in the repo: __modelname__.__version__.__milestone__ . 
+As of now, all of our code is kept within the RoverCode/MotorCode file
+All of our onshape files can be found {href:/https://cad.onshape.com/documents?nodeId=455888d2b202b0785466f0e2&resourceType=folder&column=modifiedAt&order=desc&viewMode=0}{here}
