@@ -14,8 +14,8 @@
 section Motors
 ######################################################
 
-Servo Voltage:
-Servo Amps
+#Servo Voltage:
+#Servo Amps
 
 Motor Voltage: V_m = 12 :V
 Motor Amps: A_m = .5 * 2 :A
