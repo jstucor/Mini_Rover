@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/multi_launch/multi_launch.egg-info/PKG-INFO
+../../build/multi_launch/multi_launch.egg-info/SOURCES.txt
+../../build/multi_launch/multi_launch.egg-info/dependency_links.txt
+../../build/multi_launch/multi_launch.egg-info/requires.txt
+../../build/multi_launch/multi_launch.egg-info/top_level.txt
+../../build/multi_launch/multi_launch.egg-info/zip-safe
+launch/multi_launch.py
+multi_launch/__init__.py
+resource/multi_launch
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,5 @@
+  File "/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_node.py", line 33
+    elif command == 'MEDIUM_SPEED'
+                                  ^
+SyntaxError: expected ':'
+

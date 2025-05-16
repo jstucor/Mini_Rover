@@ -1,0 +1,90 @@
+[0.488s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'motor_controller']
+[0.488s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['motor_controller'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9f0f4320>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9f294e90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9f294e90>>)
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.680s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/spacecraft/ros2_ws/src/motor_controller'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.805s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'motor_controller'
+[0.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.889s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/spacecraft/ros2_ws/install
+[0.899s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/jazzy
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_target' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'motor_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.132s] DEBUG:colcon.colcon_core.verb:Building package 'motor_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/spacecraft/ros2_ws/src/motor_controller/build/motor_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller', 'merge_install': False, 'path': '/home/spacecraft/ros2_ws/src/motor_controller', 'symlink_install': False, 'test_result_base': None}
+[1.132s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.135s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.136s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/spacecraft/ros2_ws/src/motor_controller' with build type 'ament_python'
+[1.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller', 'ament_prefix_path')
+[1.150s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/hook/ament_prefix_path.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/hook/ament_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/hook/ament_prefix_path.sh'
+[1.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.225s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/spacecraft/ros2_ws/src/motor_controller'
+[2.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spacecraft/ros2_ws/src/motor_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/spacecraft/ros2_ws/src/motor_controller/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/motor_controller build --build-base /home/spacecraft/ros2_ws/src/motor_controller/build/motor_controller/build install --record /home/spacecraft/ros2_ws/src/motor_controller/build/motor_controller/install.log --single-version-externally-managed install_data
+[7.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spacecraft/ros2_ws/src/motor_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/spacecraft/ros2_ws/src/motor_controller/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/motor_controller build --build-base /home/spacecraft/ros2_ws/src/motor_controller/build/motor_controller/build install --record /home/spacecraft/ros2_ws/src/motor_controller/build/motor_controller/install.log --single-version-externally-managed install_data
+[7.895s] Level 1:colcon.colcon_core.environment:checking '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller' for CMake module files
+[7.897s] Level 1:colcon.colcon_core.environment:checking '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller' for CMake config files
+[7.900s] Level 1:colcon.colcon_core.environment:checking '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/lib'
+[7.901s] Level 1:colcon.colcon_core.environment:checking '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/bin'
+[7.901s] Level 1:colcon.colcon_core.environment:checking '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/lib/pkgconfig/motor_controller.pc'
+[7.902s] Level 1:colcon.colcon_core.environment:checking '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/lib/python3.12/site-packages'
+[7.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_controller', 'pythonpath')
+[7.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/hook/pythonpath.ps1'
+[7.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/hook/pythonpath.dsv'
+[7.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/hook/pythonpath.sh'
+[7.908s] Level 1:colcon.colcon_core.environment:checking '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/bin'
+[7.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_controller)
+[7.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/package.ps1'
+[7.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/package.dsv'
+[7.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/package.sh'
+[7.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/package.bash'
+[7.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/motor_controller/package.zsh'
+[7.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spacecraft/ros2_ws/src/motor_controller/install/motor_controller/share/colcon-core/packages/motor_controller)
+[7.926s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.930s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.930s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.960s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.960s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.961s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.027s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spacecraft/ros2_ws/src/motor_controller/install/local_setup.ps1'
+[8.033s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/spacecraft/ros2_ws/src/motor_controller/install/_local_setup_util_ps1.py'
+[8.038s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spacecraft/ros2_ws/src/motor_controller/install/setup.ps1'
+[8.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spacecraft/ros2_ws/src/motor_controller/install/local_setup.sh'
+[8.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/spacecraft/ros2_ws/src/motor_controller/install/_local_setup_util_sh.py'
+[8.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spacecraft/ros2_ws/src/motor_controller/install/setup.sh'
+[8.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spacecraft/ros2_ws/src/motor_controller/install/local_setup.bash'
+[8.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spacecraft/ros2_ws/src/motor_controller/install/setup.bash'
+[8.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spacecraft/ros2_ws/src/motor_controller/install/local_setup.zsh'
+[8.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spacecraft/ros2_ws/src/motor_controller/install/setup.zsh'

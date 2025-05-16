@@ -1,0 +1,21 @@
+[18.375s] Invoking command in '/home/spacecraft/ros2_ws/src/motor_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/spacecraft/ros2_ws/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/spacecraft/ros2_ws/build/motor_controller/build install --record /home/spacecraft/ros2_ws/build/motor_controller/install.log --single-version-externally-managed install_data
+[20.624s] running egg_info
+[20.722s] writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO
+[20.724s] writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt
+[20.734s] writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt
+[20.735s] writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt
+[20.736s] writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt
+[20.927s] reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+[20.932s] writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+[20.933s] running build
+[20.933s] running build_py
+[20.937s] running install
+[20.963s] running install_lib
+[21.166s] running install_data
+[21.169s] running install_egg_info
+[21.358s] removing '/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[21.360s] Copying ../../build/motor_controller/motor_controller.egg-info to /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.0-py3.12.egg-info
+[21.370s] running install_scripts
+[24.320s] Installing motor_node script to /home/spacecraft/ros2_ws/install/motor_controller/lib/motor_controller
+[24.378s] writing list of installed files to '/home/spacecraft/ros2_ws/build/motor_controller/install.log'
+[24.599s] Invoked command in '/home/spacecraft/ros2_ws/src/motor_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/spacecraft/ros2_ws/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/spacecraft/ros2_ws/build/motor_controller/build install --record /home/spacecraft/ros2_ws/build/motor_controller/install.log --single-version-externally-managed install_data

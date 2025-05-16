@@ -1,0 +1,28 @@
+[3.745s] Invoking command in '/home/spacecraft/ros2_ws/src/motor_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/spacecraft/ros2_ws/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/spacecraft/ros2_ws/build/motor_controller/build install --record /home/spacecraft/ros2_ws/build/motor_controller/install.log --single-version-externally-managed install_data
+[4.921s] running egg_info
+[5.005s] writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO
+[5.006s] writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt
+[5.008s] writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt
+[5.009s] writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt
+[5.010s] writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt
+[5.189s] reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+[5.193s] writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+[5.193s] running build
+[5.194s] running build_py
+[5.194s] copying motor_controller/motor_node_david.py -> /home/spacecraft/ros2_ws/build/motor_controller/build/lib/motor_controller
+[5.196s] copying motor_controller/motor_node.py -> /home/spacecraft/ros2_ws/build/motor_controller/build/lib/motor_controller
+[5.197s] running install
+[5.222s] running install_lib
+[5.309s] copying /home/spacecraft/ros2_ws/build/motor_controller/build/lib/motor_controller/motor_node_david.py -> /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller
+[5.310s] copying /home/spacecraft/ros2_ws/build/motor_controller/build/lib/motor_controller/motor_node.py -> /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller
+[5.313s] byte-compiling /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_node_david.py to motor_node_david.cpython-312.pyc
+[5.316s] byte-compiling /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_node.py to motor_node.cpython-312.pyc
+[5.319s] Sorry: IndentationError: expected an indented block after 'elif' statement on line 32 (motor_node.py, line 34)
+[5.319s] running install_data
+[5.320s] running install_egg_info
+[5.412s] removing '/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[5.414s] Copying ../../build/motor_controller/motor_controller.egg-info to /home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.0-py3.12.egg-info
+[5.419s] running install_scripts
+[6.065s] Installing motor_node script to /home/spacecraft/ros2_ws/install/motor_controller/lib/motor_controller
+[6.067s] writing list of installed files to '/home/spacecraft/ros2_ws/build/motor_controller/install.log'
+[6.216s] Invoked command in '/home/spacecraft/ros2_ws/src/motor_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/spacecraft/ros2_ws/build/motor_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/motor_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_controller build --build-base /home/spacecraft/ros2_ws/build/motor_controller/build install --record /home/spacecraft/ros2_ws/build/motor_controller/install.log --single-version-externally-managed install_data

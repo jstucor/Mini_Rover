@@ -1,0 +1,32 @@
+[5.962s] Invoking command in '/home/spacecraft/ros2_ws/src/multi_launch': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/spacecraft/ros2_ws/build/multi_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_launch build --build-base /home/spacecraft/ros2_ws/build/multi_launch/build install --record /home/spacecraft/ros2_ws/build/multi_launch/install.log --single-version-externally-managed install_data
+[7.285s] running egg_info
+[7.287s] creating ../../build/multi_launch/multi_launch.egg-info
+[7.382s] writing ../../build/multi_launch/multi_launch.egg-info/PKG-INFO
+[7.383s] writing dependency_links to ../../build/multi_launch/multi_launch.egg-info/dependency_links.txt
+[7.384s] writing requirements to ../../build/multi_launch/multi_launch.egg-info/requires.txt
+[7.385s] writing top-level names to ../../build/multi_launch/multi_launch.egg-info/top_level.txt
+[7.386s] writing manifest file '../../build/multi_launch/multi_launch.egg-info/SOURCES.txt'
+[7.581s] reading manifest file '../../build/multi_launch/multi_launch.egg-info/SOURCES.txt'
+[7.584s] writing manifest file '../../build/multi_launch/multi_launch.egg-info/SOURCES.txt'
+[7.585s] running build
+[7.586s] running build_py
+[7.586s] creating /home/spacecraft/ros2_ws/build/multi_launch/build
+[7.587s] creating /home/spacecraft/ros2_ws/build/multi_launch/build/lib
+[7.588s] creating /home/spacecraft/ros2_ws/build/multi_launch/build/lib/multi_launch
+[7.589s] copying multi_launch/__init__.py -> /home/spacecraft/ros2_ws/build/multi_launch/build/lib/multi_launch
+[7.590s] running install
+[7.618s] running install_lib
+[7.723s] creating /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch
+[7.724s] copying /home/spacecraft/ros2_ws/build/multi_launch/build/lib/multi_launch/__init__.py -> /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch
+[7.727s] byte-compiling /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch/__init__.py to __init__.cpython-312.pyc
+[7.728s] running install_data
+[7.729s] creating /home/spacecraft/ros2_ws/install/multi_launch/share/ament_index
+[7.730s] creating /home/spacecraft/ros2_ws/install/multi_launch/share/ament_index/resource_index
+[7.730s] creating /home/spacecraft/ros2_ws/install/multi_launch/share/ament_index/resource_index/packages
+[7.731s] copying resource/multi_launch -> /home/spacecraft/ros2_ws/install/multi_launch/share/ament_index/resource_index/packages
+[7.731s] copying package.xml -> /home/spacecraft/ros2_ws/install/multi_launch/share/multi_launch
+[7.732s] running install_egg_info
+[7.836s] Copying ../../build/multi_launch/multi_launch.egg-info to /home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages/multi_launch-0.0.0-py3.12.egg-info
+[7.841s] running install_scripts
+[8.560s] writing list of installed files to '/home/spacecraft/ros2_ws/build/multi_launch/install.log'
+[8.737s] Invoked command in '/home/spacecraft/ros2_ws/src/multi_launch' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/spacecraft/ros2_ws/build/multi_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spacecraft/ros2_ws/install/multi_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_launch build --build-base /home/spacecraft/ros2_ws/build/multi_launch/build install --record /home/spacecraft/ros2_ws/build/multi_launch/install.log --single-version-externally-managed install_data
