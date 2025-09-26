@@ -1,0 +1,35 @@
+[1.116s] Invoking command in '/home/jacob/ros2_ws/src/joystick_drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/ros2_ws/src/build/joystick_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/ros2_ws/src/install/joystick_drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/joystick_drive build --build-base /home/jacob/ros2_ws/src/build/joystick_drive/build install --record /home/jacob/ros2_ws/src/build/joystick_drive/install.log --single-version-externally-managed install_data
+[1.454s] running egg_info
+[1.454s] creating ../build/joystick_drive/joystick_drive.egg-info
+[1.476s] writing ../build/joystick_drive/joystick_drive.egg-info/PKG-INFO
+[1.476s] writing dependency_links to ../build/joystick_drive/joystick_drive.egg-info/dependency_links.txt
+[1.477s] writing requirements to ../build/joystick_drive/joystick_drive.egg-info/requires.txt
+[1.477s] writing top-level names to ../build/joystick_drive/joystick_drive.egg-info/top_level.txt
+[1.477s] writing manifest file '../build/joystick_drive/joystick_drive.egg-info/SOURCES.txt'
+[1.525s] reading manifest file '../build/joystick_drive/joystick_drive.egg-info/SOURCES.txt'
+[1.526s] writing manifest file '../build/joystick_drive/joystick_drive.egg-info/SOURCES.txt'
+[1.526s] running build
+[1.526s] running build_py
+[1.526s] creating /home/jacob/ros2_ws/src/build/joystick_drive/build
+[1.526s] creating /home/jacob/ros2_ws/src/build/joystick_drive/build/lib
+[1.526s] creating /home/jacob/ros2_ws/src/build/joystick_drive/build/lib/joystick_drive
+[1.526s] copying joystick_drive/joystick_node.py -> /home/jacob/ros2_ws/src/build/joystick_drive/build/lib/joystick_drive
+[1.527s] copying joystick_drive/__init__.py -> /home/jacob/ros2_ws/src/build/joystick_drive/build/lib/joystick_drive
+[1.527s] running install
+[1.536s] running install_lib
+[1.559s] creating /home/jacob/ros2_ws/src/install/joystick_drive/lib/python3.12/site-packages/joystick_drive
+[1.559s] copying /home/jacob/ros2_ws/src/build/joystick_drive/build/lib/joystick_drive/joystick_node.py -> /home/jacob/ros2_ws/src/install/joystick_drive/lib/python3.12/site-packages/joystick_drive
+[1.559s] copying /home/jacob/ros2_ws/src/build/joystick_drive/build/lib/joystick_drive/__init__.py -> /home/jacob/ros2_ws/src/install/joystick_drive/lib/python3.12/site-packages/joystick_drive
+[1.560s] byte-compiling /home/jacob/ros2_ws/src/install/joystick_drive/lib/python3.12/site-packages/joystick_drive/joystick_node.py to joystick_node.cpython-312.pyc
+[1.561s] byte-compiling /home/jacob/ros2_ws/src/install/joystick_drive/lib/python3.12/site-packages/joystick_drive/__init__.py to __init__.cpython-312.pyc
+[1.561s] running install_data
+[1.561s] creating /home/jacob/ros2_ws/src/install/joystick_drive/share/ament_index
+[1.561s] creating /home/jacob/ros2_ws/src/install/joystick_drive/share/ament_index/resource_index
+[1.562s] creating /home/jacob/ros2_ws/src/install/joystick_drive/share/ament_index/resource_index/packages
+[1.562s] copying resource/joystick_drive -> /home/jacob/ros2_ws/src/install/joystick_drive/share/ament_index/resource_index/packages
+[1.562s] copying package.xml -> /home/jacob/ros2_ws/src/install/joystick_drive/share/joystick_drive
+[1.562s] running install_egg_info
+[1.586s] Copying ../build/joystick_drive/joystick_drive.egg-info to /home/jacob/ros2_ws/src/install/joystick_drive/lib/python3.12/site-packages/joystick_drive-0.0.0-py3.12.egg-info
+[1.587s] running install_scripts
+[1.755s] writing list of installed files to '/home/jacob/ros2_ws/src/build/joystick_drive/install.log'
+[1.836s] Invoked command in '/home/jacob/ros2_ws/src/joystick_drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jacob/ros2_ws/src/build/joystick_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jacob/ros2_ws/src/install/joystick_drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/joystick_drive build --build-base /home/jacob/ros2_ws/src/build/joystick_drive/build install --record /home/jacob/ros2_ws/src/build/joystick_drive/install.log --single-version-externally-managed install_data
