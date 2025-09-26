@@ -19,7 +19,7 @@ A project from the BYU Spacecraft Club.
   - [ ]
  - [ ]  Get basic temperature readings
   - [ ]   Make temperature part of the ROS scripts
-- [ ]  _Battery Distance__ (Drive rover 1 mile up a 30 deg incline)
+- [ ]  __Battery Distance__ (Drive rover 1 mile up a 30 deg incline)
  - [ ] Do smaller simulations on treadmil and scale to mile distance
    - [ ] Wire battery, run basic diagnostics to ensure no short circuiting
     - [ ]  Purchase battery
