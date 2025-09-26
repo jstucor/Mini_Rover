@@ -5,12 +5,12 @@ A project from the BYU Spacecraft Club.
 
 
 
-[] **Hike the Y trail and locate EB**
-    []  __Range Test__ (Communicating with the rover 2 miles away)
-        [] Confiure and test equipment via short range tests
-            [] Purchase RF equipment
-        [] Fix ROS bugs on both ground station and rover
-            [] Use library for controller communication to ROS code
+- [ ] **Hike the Y trail and locate EB**
+       - [ ]  __Range Test__ (Communicating with the rover 2 miles away)
+       - [ ] Confiure and test equipment via short range tests
+           - [ ] Purchase RF equipment
+       - [ ] Fix ROS bugs on both ground station and rover
+           - [ ] Use library for controller communication to ROS code
             [] Change Joystick node to act as a service with Motor node
             [] Fix servo bug with Arduino
 
@@ -40,3 +40,4 @@ A project from the BYU Spacecraft Club.
 ## Onshape files
 All of our onshape files can be found [here](https://cad.onshape.com/documents?nodeId=455888d2b202b0785466f0e2&resourceType=folder&column=modifiedAt&order=desc&viewMode=0) 
 
+ 
