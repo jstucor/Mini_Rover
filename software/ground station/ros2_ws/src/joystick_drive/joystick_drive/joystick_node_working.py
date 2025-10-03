@@ -13,7 +13,7 @@ class ControllerCommander(Node):
         super().__init__('controller_commander')
 
         # Specify the device path for the Xbox controller (use your actual device path)
-        joystick_device = '/dev/input/js0'  # Change this to the correct device if needed
+        joystick_device = '/dev/controller'  # This name was made with udev rules
         self.get_logger().info(f"Starting joy_node with device: {joystick_device}")
 
         # Start joy_node with specified device using subprocess
@@ -33,6 +33,9 @@ class ControllerCommander(Node):
             10
         )
 
+        """
+        GUI for the controller
+
         # Create a Tkinter window
         self.root = tk.Tk()
         self.root.title("Controller Commander")
@@ -51,10 +54,14 @@ class ControllerCommander(Node):
 
         # Run Tkinter GUI event loop in the main thread
         self.root.after(100, self.update_gui)  # Start periodic GUI updates
+        """
 
     def joy_callback(self, msg):
         # Map controller inputs to command codes based on Xbox controller
-        # self.get_logger().info('Received joystick input')
+        # This is the section of code that I need to edit using the pygame module
+
+
+
         if msg.buttons[0] == 1:  # A button pressed
             self.send_command('GO_FORWARD')
         elif msg.buttons[1] == 1:  # B button pressed
