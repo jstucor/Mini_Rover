@@ -1,5 +1,5 @@
 # Mini Rover
-A project from the BYU Spacecraft Club.
+A project from the BYU Spacecraft Club. Here is our [OnShape file](https://cad.onshape.com/documents?nodeId=455888d2b202b0785466f0e2&resourceType=folder&column=modifiedAt&order=desc&viewMode=0)
 
 # Club Semester Goals and Tasks
 
