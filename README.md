@@ -10,7 +10,7 @@ A project from the BYU Spacecraft Club. Here is our [OnShape file](https://cad.o
   - [ ] Confiure and test equipment via short range tests
     - [ ] Purchase RF equipment (Jacob)
   - [ ] Fix ROS bugs on both ground station and rover
-    - [ ] Use library for controller communication to ROS code
+    - [ ] Abstract away joystick.node in ROS code
     - [ ] Update controller connection to be stable
     - [ ] Change Joystick node to act as a service with Motor node (Ian)
     - [ ] Fix servo bug with Arduino (Collin)
