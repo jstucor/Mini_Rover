@@ -83,31 +83,6 @@ class ControllerCommander(Node):
         # elif msg.axes[5] > 0.1:  # Right Trigger pressed
         #     self.send_command('RIGHT_TRIGGER')
 
-    def on_key_press(self, key):
-        # self.get_logger().info('Received joystick input')
-        try:
-            if key.char == 'w':  # 'w' key pressed -> DO_A
-                self.send_command('GO_FORWARD')
-                self.command_queue.put("GO_FORWARD")
-            elif key.char == 's':  # 's' key pressed -> DO_B
-                self.send_command('STOP')
-                self.command_queue.put("STOP")
-            elif key.char == 'a':
-                self.send_command('TURN_LEFT')
-                self.command_queue.put("TURN_LEFT")
-            elif key.char == 'd':
-                self.send_command('TURN_RIGHT')
-                self.command_queue.put("TURN_RIGHT")
-            elif key.char == 'z':
-                self.send_command('SLOW_SPEED')
-                self.command_queue.put("SLOW_SPEED")
-            elif key.char == 'x':
-                self.send_command('MEDIUM_SPEED')
-                self.command_queue.put("MEDIUM_SPEED")
-        except AttributeError:
-            # Handle special keys (e.g., shift, ctrl)
-            pass
-
     def send_command(self, command_str):
         command = String()
         command.data = command_str  # Instruction for Pi 2
