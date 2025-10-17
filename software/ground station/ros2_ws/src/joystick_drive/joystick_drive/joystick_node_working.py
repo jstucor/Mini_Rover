@@ -17,7 +17,14 @@ class ControllerCommander(Node):
         self.get_logger().info(f"Starting joy_node with device: {joystick_device}")
 
         # Start joy_node with specified device using subprocess
-        subprocess.Popen(['ros2', 'run', 'joy', 'joy_node', '--dev', joystick_device])
+        subprocess.Popen(['ros2', 
+                          'run', 
+                          'joy', 
+                          'joy_node', 
+                          '--dev', 
+                          joystick_device,
+                          '--ros-args',
+                          '-p','autorepeat:=0.0'])
 
         # Subscribe to joystick data
         self.joy_sub = self.create_subscription(
