@@ -8,7 +8,7 @@ A project from the BYU Spacecraft Club. Here is our [OnShape file](https://cad.o
 - [ ] **Hike the Y trail and locate EB**
  - [ ] __Range Test__ (Communicating with the rover 2 miles away)
   - [ ] Confiure and test equipment via short range tests
-    - [ ] Purchase RF equipment (Jacob)
+    - [x] Purchase RF equipment (Jacob)
   - [ ] Fix ROS bugs on both ground station and rover
     - [ ] Abstract away joystick.node in ROS code
     - [ ] Update controller connection to be stable
@@ -78,4 +78,5 @@ Finding your wife on github
  - Pulling on github
  - I wonder if I could git pull you
  - Could I get your git handle?
+ - Shart range test
 I killed a turtle
