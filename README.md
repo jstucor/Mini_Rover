@@ -65,4 +65,17 @@ At the bottom of the file add:
 Under the ros2_ws./src directory you begin editing your code
  To make your first ros2 script, follow the steps from [this documentation](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html)
 
+Run the turtle sim!
+On one 
+ ros2 run turtlesim turtlesim_node
+On the other
+ ros2 run turtlesim turtle_teleop_key
 
+
+# Quotes:
+Finding your wife on github
+ - I couldnt commit
+ - Pulling on github
+ - I wonder if I could git pull you
+ - Could I get your git handle?
+I killed a turtle
