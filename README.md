@@ -2,34 +2,34 @@
 A project from the BYU Spacecraft Club. Here is our [OnShape file](https://cad.onshape.com/documents?nodeId=455888d2b202b0785466f0e2&resourceType=folder&column=modifiedAt&order=desc&viewMode=0)
 
 # Club Semester Goals and Tasks
-
+    Focus more on the goals and tasks made 
 
 
 - [ ] **Hike the Y trail and locate EB**
  - [ ] __Range Test__ (Communicating with the rover 2 miles away)
   - [ ] Confiure and test equipment via short range tests
     - [x] Purchase RF equipment (Jacob)
-  - [ ] Fix ROS bugs on both ground station and rover
-    - [ ] Abstract away joystick.node in ROS code
-    - [ ] Update controller connection to be stable
-    - [ ] Change Joystick node to act as a service with Motor node (Ian)
-    - [ ] Fix servo bug with Arduino (Collin)
+  - [x] Fix ROS bugs on both ground station and rover
+    - [x] Abstract away joystick.node in ROS code
+    - [x] Update controller connection to be stable
+    - [x] Change Joystick node to act as a service with Motor node (Ian)
+    - [x] Fix servo bug with Arduino (Collin)
 
 - [ ] __Ruggedness Test__ (Pass dust-proof test)
  - [ ] Encase all equipment in water/dust tight case
-  - [ ] Print first design
+  - [x] Print first design
  - [ ]  Get basic temperature readings
   - [ ]   Make temperature part of the ROS scripts ()
 - [ ]  __Battery Distance__ (Drive rover 1 mile up a 30 deg incline)
  - [ ] Do smaller simulations on treadmil and scale to mile distance
    - [ ] Wire battery, run basic diagnostics to ensure no short circuiting
-    - [ ]  Purchase battery
-     - [ ]  Choose battery (post Rocket installation)
+    - [x]  Purchase battery
+     - [x]  Choose battery (post Rocket installation)
 
 
 ## Potential Future Goals
 
-- [ ] Custom PCB for rover
+- [x] Custom PCB for rover
 - [ ] Sensor integration
  - [ ] IMU
  - [ ] Pin drill
@@ -71,12 +71,3 @@ On one
 On the other
  ros2 run turtlesim turtle_teleop_key
 
-
-# Quotes:
-Finding your wife on github
- - I couldnt commit
- - Pulling on github
- - I wonder if I could git pull you
- - Could I get your git handle?
- - Shart range test
-I killed a turtle
