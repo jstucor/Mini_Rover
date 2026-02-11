@@ -1,0 +1,47 @@
+# --- ROS 2 Build Artifacts ---
+build/
+install/
+log/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- C++ / Compiled Files ---
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# --- Colcon/AMENT extras ---
+.catkin_tools/
+COLCON_IGNORE
