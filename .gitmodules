@@ -1,6 +1,6 @@
 [submodule "red_rover"]
 	path = red_rover
-	url = ../red_rover
+	url = https://github.com/jstucor/red_rover.git
 [submodule "blue_base"]
 	path = blue_base
-	url = ./blue_base
+	url = https://github.com/jstucor/blue_base.git
