@@ -1,0 +1,6 @@
+[submodule "red_rover"]
+	path = red_rover
+	url = ../red_rover
+[submodule "blue_base"]
+	path = blue_base
+	url = ./blue_base
